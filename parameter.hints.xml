@@ -6,6 +6,7 @@
         <added pattern="com.test.spring.App.logEvent(msg)" />
         <added pattern="org.springframework.security.authentication.UsernamePasswordAuthenticationToken.UsernamePasswordAuthenticationToken(principal,credentials,authorities)" />
         <added pattern="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder.encode(rawPassword)" />
+        <added pattern="org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.antMatchers(antPatterns)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
