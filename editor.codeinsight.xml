@@ -1,0 +1,5 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="SHOW_METHOD_CHAIN_TYPES_INLINE" value="false" />
+  </component>
+</application>

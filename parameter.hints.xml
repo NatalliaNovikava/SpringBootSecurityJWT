@@ -1,0 +1,14 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="com.test.spring.Client.Client(id,fullName)" />
+        <added pattern="com.test.spring.App.logEvent(msg)" />
+        <added pattern="org.springframework.security.authentication.UsernamePasswordAuthenticationToken.UsernamePasswordAuthenticationToken(principal,credentials,authorities)" />
+        <added pattern="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder.encode(rawPassword)" />
+      </blacklist>
+      <blacklist language="Groovy" />
+      <blacklist language="Kotlin" />
+    </blacklists>
+  </component>
+</application>
